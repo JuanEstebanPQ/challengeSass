@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+.main-container {
+  border: 1px solid red;
+  width: 375px;
+  margin: 0 auto 25px;
+}
+@media (min-width: 1440px) {
+  .main-container {
+    width: 1440px;
+    height: unset;
+    font-size: unset;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto 100px;
+}
+@media (min-width: 1440px) {
+  .navbar {
+    width: 1300px;
+    height: unset;
+    font-size: unset;
+  }
+}
+.navbar-logo {
+  width: 95px;
+  height: 16px;
+}
+@media (min-width: 1440px) {
+  .navbar-logo {
+    width: 240px;
+    height: 38px;
+    font-size: unset;
+  }
+}
+.navbar-button {
+  background-color: #fff;
+  border: none;
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 50px;
+  display: block;
+  color: hsl(321, 100%, 78%);
+  width: 80px;
+  height: 24px;
+}
+@media (min-width: 1440px) {
+  .navbar-button {
+    width: 134px;
+    height: 42px;
+    font-size: unset;
+  }
+}
+.navbar-button:hover {
+  cursor: pointer;
+  background-color: hsl(321, 100%, 78%);
+  color: #fff;
+}
+
+.header-title {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 265px;
+  font-size: 1.48em;
+  margin: 0 auto 36px;
+}
+@media (min-width: 1440px) {
+  .header-title {
+    width: 1100px;
+    height: unset;
+    font-size: 2.98em;
+  }
+}
+.header-description {
+  text-align: center;
+  margin: 0 auto 150px;
+  font-weight: 600;
+  font-size: 0.8em;
+  width: 290px;
+}
+@media (min-width: 1440px) {
+  .header-description {
+    width: 590px;
+    height: 80px;
+    font-size: 1.25em;
+  }
+}
+.header-button {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border: 1px solid unset;
+  border-radius: 50px;
+  display: block;
+  color: hsl(207, 100%, 98%);
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 290px;
+}
+@media (min-width: 1440px) {
+  .header-button {
+    width: 400px;
+    height: 80px;
+    font-size: 1.25em;
+  }
+}
+.header-button:hover {
+  cursor: pointer;
+  background-color: hsl(321, 100%, 78%);
+  color: #fff;
+}
+.header-image {
+  width: 300px;
+  display: block;
+  margin: 0 auto 138px;
+}
+@media (min-width: 1440px) {
+  .header-image {
+    width: 1020px;
+    height: 725px;
+    font-size: unset;
+  }
+}
+
+.section-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-stats .comunities {
+  margin-bottom: 98px;
+}
+.section-stats .comunities-logo {
+  width: 32px;
+}
+.section-stats .comunities-stats {
+  font-size: 4em;
+  margin: 0;
+}
+.section-stats .comunities-description {
+  font-size: 0.8em;
+  text-align: center;
+}
+.section-stats .messages {
+  margin-bottom: 98px;
+}
+.section-stats .messages-logo {
+  width: 32px;
+}
+.section-stats .messages-stats {
+  font-size: 4em;
+  margin: 0;
+}
+.section-stats .messages-description {
+  font-size: 0.8em;
+  text-align: center;
+  border: 1px solid darkred;
+  width: 69px;
+  margin: auto;
+}
+
+.section-grow-together {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 180px;
+}
+.section-grow-together .image-container-illustration {
+  width: 246px;
+  margin-bottom: 78px;
+}
+.section-grow-together .description-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.section-grow-together .description-content {
+  text-align: center;
+  font-size: 0.9em;
+  width: 330px;
+}
+
+.section-flowing-conversations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 180px;
+}
+.section-flowing-conversations .image-container-illustration {
+  width: 246px;
+  margin-bottom: 78px;
+}
+.section-flowing-conversations .description-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.section-flowing-conversations .description-content {
+  text-align: center;
+  font-size: 0.9em;
+  width: 330px;
+}
+
+.section-your-users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 180px;
+}
+.section-your-users .image-container-illustration {
+  width: 246px;
+  margin-bottom: 78px;
+}
+.section-your-users .description-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.section-your-users .description-content {
+  text-align: center;
+  font-size: 0.9em;
+  width: 330px;
+}/*# sourceMappingURL=styles.css.map */
